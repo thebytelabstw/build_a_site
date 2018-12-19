@@ -1,17 +1,15 @@
 body {
   font-family: 'Montserrat';
-  background: #F8F8F8;
+  background: linear-gradient(to bottom right, #fc1da7, #fba506);;
 }
 
 .header {
-  background-color: #817b7b;
-  color: #f6cd61;
+  color: #F8F8F8;
   padding: 25px;
   text-align: center;
 }
 
 .profile {
-  background-color: #0e9aa7;
   padding: 25px;
   text-align: center;
   font-size: 40px;
@@ -19,6 +17,7 @@ body {
 
 #profile-img {
   max-width: 100%;
+  border-radius: 50%;
 }
 
 #bio-link {
