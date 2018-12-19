@@ -1,0 +1,22 @@
+body {
+    font-family: 'Montserrat';
+    background: lightblue;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #header{
+      text-align: center; 
+  }
