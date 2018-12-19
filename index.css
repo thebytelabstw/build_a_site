@@ -1,29 +1,49 @@
+html {
+    height: 100%;
+}
+
 body {
-  font-family: 'Montserrat';
-  background: linear-gradient(to bottom right, #fc1da7, #fba506);;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat';
+    background: linear-gradient(to bottom right, #fc1da7, #fba506);
 }
 
 .header {
   color: #F8F8F8;
-  padding: 25px;
+  padding: 16px;
   text-align: center;
 }
 
 .profile {
-  padding: 25px;
+  padding: 20px;
   text-align: center;
-  font-size: 40px;
+}
+
+.link {
+  text-align: center;
+  font-size: 20px;
 }
 
 #profile-img {
   max-width: 100%;
   border-radius: 50%;
+  margin-bottom: 25px;
 }
 
 #bio-link {
-  color: #F8F8F8;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  padding:10px 10px 10px 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #bio-link:hover {
-  color: black;
+  color: #F8F8F8;
+  border: 2px solid #F8F8F8;
 }
