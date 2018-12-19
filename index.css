@@ -1,0 +1,30 @@
+body {
+  font-family: 'Montserrat';
+  background: #F8F8F8;
+}
+
+.header {
+  background-color: #817b7b;
+  color: #f6cd61;
+  padding: 25px;
+  text-align: center;
+}
+
+.profile {
+  background-color: #0e9aa7;
+  padding: 25px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#profile-img {
+  max-width: 100%;
+}
+
+#bio-link {
+  color: #F8F8F8;
+}
+
+#bio-link:hover {
+  color: black;
+}
